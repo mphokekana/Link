@@ -1,16 +1,16 @@
-import { PrettyChatWindow } from 'react-chat-engine-pretty';
+import { PrettyChatWindow } from 'react-chat-engine-pretty'
 
 const ChatsPage = (props) => {
-    return (
+    return ( 
         <div style={{ height: '100vh' }}>
             <PrettyChatWindow
-                projectId='ee2fc887-ab98-4709-864d-0f2807496272' 
+                projectId='1bd39411-66ff-4f5c-9e40-b608b35c3a98'
                 username={props.user.username}
-                secret={props.user.secret}
+                secret={props.user.username}
                 style={{ height: '100%' }}
             />
         </div>
-    )
+    ) 
 }
 
 export default ChatsPage
